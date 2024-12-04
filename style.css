@@ -93,3 +93,25 @@ input {
     display: block;
 }
 
+.form-footer {
+    padding: 2vh 4vw;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+button {
+    width: fit-content;
+    padding: 1.5vh 3vw;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.log-in {
+    color: rgb(126, 124, 124);
+    font-weight: 600;
+}
