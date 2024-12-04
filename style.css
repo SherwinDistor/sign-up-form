@@ -8,15 +8,43 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-.background-image {
+
+.image-sidebar {
+    background-image: url(./images/andrea-davis-aND5_wlo5VM-unsplash.jpg);
+    background-size: cover;
+    width: clamp(200px, 38.2%, 640px);
     height: 100vh;
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    height: 14.6vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+    background-color: #00000050;
+    margin-top: 50%;
+    padding: 30px 20px;
 }
 
 img {
-    height: 100vh;
-    object-fit: cover;
+    height: 100%;
+}
+
+.sidebar-footer {
+    margin-bottom: 20px;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
 }
 
 h1 {
@@ -26,6 +54,7 @@ h1 {
 .form-container {
     width: 70%;
     background-color: var(--light-gray-background);
+    
 }
 
 header {
@@ -40,6 +69,7 @@ form {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 input {
